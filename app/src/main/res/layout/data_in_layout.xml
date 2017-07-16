@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar" />
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        android:orientation="vertical" >
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:textSize="16dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/registerName"
+            android:inputType="textPersonName"
+            app:met_floatingLabel="normal"
+            app:met_minCharacters="3"
+            app:met_maxCharacters="30"
+            app:met_clearButton="true"
+            app:met_textColorHint="#8C96FF"
+            app:met_baseColor="#2f3794"
+            app:met_primaryColor="#8C96FF"
+            app:met_errorColor="#8C96FF"
+            app:met_textColor="#8C96FF"
+            app:met_underlineColor="#8C96FF"
+            app:met_helperTextColor="#8C96FF"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Telefono"
+            android:textSize="16dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/registerPhone"
+            android:inputType="phone"
+            app:met_floatingLabel="highlight"
+            app:met_minCharacters="10"
+            app:met_maxCharacters="10"
+            app:met_clearButton="true"
+            app:met_textColorHint="#8C96FF"
+            app:met_baseColor="#2f3794"
+            app:met_primaryColor="#8C96FF"
+            app:met_errorColor="#8C96FF"
+            app:met_textColor="#8C96FF"
+            app:met_underlineColor="#8C96FF"
+            app:met_helperTextColor="#8C96FF"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correo"
+            android:textSize="16dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/registerEmail"
+            android:inputType="textEmailAddress"
+            app:met_floatingLabel="highlight"
+            app:met_minCharacters="3"
+            app:met_maxCharacters="100"
+            app:met_clearButton="true"
+            app:met_textColorHint="#8C96FF"
+            app:met_baseColor="#2f3794"
+            app:met_primaryColor="#8C96FF"
+            app:met_errorColor="#8C96FF"
+            app:met_textColor="#8C96FF"
+            app:met_underlineColor="#8C96FF"
+            app:met_helperTextColor="#8C96FF"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:textSize="16dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/registerPassword"
+            android:inputType="textPassword"
+            app:met_floatingLabel="highlight"
+            app:met_minCharacters="6"
+            app:met_maxCharacters="15"
+            app:met_clearButton="true"
+            app:met_textColorHint="#8C96FF"
+            app:met_baseColor="#2f3794"
+            app:met_primaryColor="#8C96FF"
+            app:met_errorColor="#8C96FF"
+            app:met_textColor="#8C96FF"
+            app:met_underlineColor="#8C96FF"
+            app:met_helperTextColor="#8C96FF"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Repetir Contraseña"
+            android:textSize="16dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/registerPasswordRepeat"
+            android:inputType="textPassword"
+            app:met_floatingLabel="highlight"
+            app:met_minCharacters="6"
+            app:met_helperText=""
+            app:met_maxCharacters="15"
+            app:met_clearButton="true"
+            app:met_textColorHint="#8C96FF"
+            app:met_baseColor="#2f3794"
+            app:met_primaryColor="#8C96FF"
+            app:met_errorColor="#8C96FF"
+            app:met_textColor="#8C96FF"
+            app:met_underlineColor="#8C96FF"
+            app:met_helperTextColor="#8C96FF"/>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#ffffff"
+        android:background="#2f3794"
+        android:layout_marginTop="20dp"
+        android:typeface="monospace"
+        android:text="GUARDAR" />
+
+</LinearLayout>
+    </ScrollView>
+
+    </LinearLayout>

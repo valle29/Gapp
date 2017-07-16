@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="dialogplus-1.11">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/08941715cb476eb9f17ab8d59534f96b01928da5/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/08941715cb476eb9f17ab8d59534f96b01928da5/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.orhanobut/dialogplus/1.11/dae75f1a1cd49e7334e10cfd8c02735c18e255c8/dialogplus-1.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
